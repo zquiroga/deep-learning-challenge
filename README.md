@@ -45,7 +45,7 @@ This shows that it is only 73.17% accurate.
 
 - What variable(s) should be removed from the input data because they are neither targets nor features?
   
-  EIN I removed from the input data because they are neither targets nor features.
+  EIN was removed from the input data because they are neither targets nor features.
 
 # Compiling, Training, and Evaluating the Model
 
