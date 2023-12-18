@@ -51,7 +51,6 @@ This shows that it is only 73.17% accurate.
 - How many neurons, layers, and activation functions did you select for your neural network model, and why?
   with three dense layers, and the total number of parameters is 37,981. The architecture includes layers with output shapes (80,), (30,), and (1,), respectively.
   
-![image](https://github.com/zquiroga/deep-learning-challenge/assets/118328051/eb5ff5ac-64dd-40b7-873c-91dff8df6c64)
 
 - Were you able to achieve the target model performance?
   The target for the model achieved a 79.07 % model performance despite optimization of the code
