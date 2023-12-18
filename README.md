@@ -36,15 +36,15 @@ This shows that it is only 73.17% accurate.
 # Data Preprocessing
 
 - What variable(s) are the target(s) for your model?
-- 
+  
   y = numerical_df["IS_SUCCESSFUL"].values  is the target for the model because this indicate that the applicant is successful.
 
 - What variable(s) are the features for your model?
-- 
+  
   IS_SUCCESSFUL is the feature column chosen data for the model.
 
 - What variable(s) should be removed from the input data because they are neither targets nor features?
-- 
+  
   EIN I removed from the input data because they are neither targets nor features.
 
 # Compiling, Training, and Evaluating the Model
@@ -52,17 +52,17 @@ This shows that it is only 73.17% accurate.
 ![image](https://github.com/zquiroga/deep-learning-challenge/assets/118328051/ec631249-a27a-477f-bcfc-cace4ea7157b)
 
 - How many neurons, layers, and activation functions did you select for your neural network model, and why?
-- 
+  
   with three dense layers, and the total number of parameters is 37,981. The architecture includes layers with output shapes (80,), (30,), and (1,), respectively.
   
 
 - Were you able to achieve the target model performance?
-- 
+  
   The target for the model achieved a 79.07 % model performance despite optimization of the code
 
 - What steps did you take in your attempts to increase model performance?
 
- in Application time - Determine which values to replace if counts are name_count <= 4 and Classification - Determine which values to replace if counts are less than < 1500.
+  in Application time - Determine which values to replace if counts are name_count <= 4 and Classification - Determine which values to replace if counts are less than < 1500.
 
 # Optimize your model in order to achieve a target predictive accuracy higher than 75%
 
